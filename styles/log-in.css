@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.login-head{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+.main-container{
+    padding: 5% 5%;
+    display: flex;
+    justify-content: space-around;
+    /*background-color: aqua;*/
+}
+.login-sec{
+    text-align: center;
+    line-height: 2;
+    border: 2px solid grey;
+    border-radius: 5px;
+    width: 40%;
+}
+.changelog-container{
+    text-align: center;
+    border: 1px solid grey;
+    width: 30%;
+    border-radius: 5px;
+    /*height: 400px*/
+}
+.changelog-links{
+    text-decoration: none;
+    color: black;
+}
+.changelog-links:hover{
+    text-decoration: underline;
+}
+.changelog-paragraphs{
+    color: gray;
+}
+a{
+    color: rgb(72, 201, 72);
+    
+}
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .divider::before,
+  .divider::after {
+    content: "";
+    border-top: 1px solid gray;
+    flex: 1;
+}
+
+#password{
+    width: 80%;
+    padding: 2%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin: 2% 0;
+}
+#password:hover{
+    border: 2px solid rgb(32, 180, 32);
+}
+#email{
+    width: 80%;
+    padding: 2%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin: 2% 0;
+}
+#email:hover{
+    border: 2px solid rgb(32, 180, 32);
+}
+.log-in{
+    width: 85%;
+    padding: 2%;
+    margin: 2% 0;
+    background-color: rgb(32, 180, 32);
+    border-radius: 5px;
+    border: 2px solid rgb(32, 180, 32);
+}
+.log-in:hover{
+    background-color: green;
+}
+.links{
+    margin: 5% 0 10% 0;
+}
+.changelog-content{
+    padding: 10px;
+}
+.Changelog-span{
+    background-color: green;
+    border-radius: 5px;
+    padding: 2px;
+    color: black;
+}
+/*responsiveness*/
+@media(max-width:600px){
+    .main-container{
+        flex-direction: column-reverse;
+    }
+    .login-sec{
+    width: 80%;
+    margin: 5%;
+    }
+    .changelog-container{
+        width: 80%;
+        margin: 5%;
+    }
+}

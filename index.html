@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="js/main.js" async defer></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <nav>
+
+                <div class="logo">
+                    <img src="resources/logo.svg" alt="logo" id="logo">
+                </div>
+                
+                <div class="navlinks-container">
+                    <ul>
+                        <li class="nav-links-container"><a href="#" class="nav-links" id="products">Product</a></li>
+                        <li class="nav-links-container"><a href="#" class="nav-links">Industries</a></li>
+                        <li class="nav-links-container"><a href="#" class="nav-links">Template</a></li>
+                        <li class="nav-links-container"><a href="#" class="nav-links">Pricing</a></li>
+                        <li class="nav-links-container"><a href="#" class="nav-links">Resources</a></li>
+                        <li class="nav-links-container"><a href="#" class="nav-links">Reviews</a></li>
+                    </ul>
+                </div>
+                <ion-icon name="menu-outline" id="menu-outline"></ion-icon>
+                <div class="navbar-login-form">
+                    <a href="login.html"><button id="Log-in">Log in</button></a><span><button class="start" id="start">Start free</button></span>
+                </div>
+
+            </nav>
+        </div>
+        <hr>
+        <div class="products">
+            <div class="products-cols">
+                <h4>Client management</h4>
+                <ul>
+                    <li><a href="#">CRM</a></li>
+                    <li><a href="#">Scheduling</a></li>
+                    <li><a href="#">Proposals</a></li>
+                    <li><a href="#">Contracts</a></li>
+                    <li><a href="#">Forms</a></li>
+                </ul>
+            </div>
+            <div class="products-cols">
+                <h4>project management</h4>
+                <ul>
+                    <li><a href="#">Time-tracking</a></li>
+                    <li><a href="#">Tasks</a></li>
+                    <li><a href="#">File sharing</a></li>
+                    <li><a href="#">Client portal</a></li>
+                    <li><a href="#">Collaboration</a></li>
+                </ul>
+            </div>
+            <div class="products-cols">
+                <h4>financial management</h4>
+                <ul>
+                    <li><a href="#">Invoicing </a></li>
+                    <li><a href="#">Payments</a></li>
+                    <li><a href="#">Accounting</a></li>
+                    <li><a href="#">Taxes</a></li>
+                    <li><a href="#">banking</a></li>
+                </ul>
+            </div>
+            <div class="products-cols">
+                <h4>What's new</h4>
+                <img src="resources/calender.jpg" alt="cal-img" style="display: inline-block;width: 100px;">
+                <p style="color: gray;">Branded scheduling portal</p>
+                <a href="#" style="color: rgb(72, 201, 72);">Learn more</a>
+            </div>
+
+        </div>
+        <div class="industries">
+            <div class="industry-cols">
+                <h4>Business Services</h4>
+                <ul>
+                    <li><a href="#">Consulting</a></li>
+                    <li><a href="#">Marketing</a></li>
+                    <li><a href="#">Recruiting</a></li>
+                    <li><a href="#">Virtual Assisstant</a></li>
+                    <li><a href="#">More..</a></li>
+                </ul>
+            </div>
+            <div class="industry-cols">
+                <h4>Creative and digital</h4>
+                <ul>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Photography</a></li>
+                    <li><a href="#">Software Development</a></li>
+                    <li><a href="#">Writing</a></li>
+                    <li><a href="#">More...</a></li>
+                </ul>
+            </div>
+            <div class="industry-cols">
+                <h4>Professional Services</h4>
+                <ul>
+                    <li><a href="#">Coaching</a></li>
+                    <li><a href="#">Architecture</a></li>
+                    <li><a href="#">Accounting</a></li>
+                    <li><a href="#">Legal</a></li>
+                    <li><a href="#">More..</a></li>
+                </ul>
+            </div>
+            <div class="industry-cols">
+                <h4>Other Services</h4>
+                <ul>
+                    <li><a href="#">Event planning</a></li>
+                    <li><a href="#">Interior design</a></li>
+                    <li><a href="#">Real-Estate</a></li>
+                    <li><a href="#">More...</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="template" style="margin: 10px  25px;">
+            <ul>
+                <li><a href="#">Contract Templates</a></li>
+                <li><a href="#">Proposals Templates</a></li>
+                <li><a href="#">Invoive Templates</a></li>
+                <li><a href="#">Quote Templates</a></li>
+                <li><a href="#">Scope of Work Templates</a></li>
+                <a href="#" style="color: rgb(89, 211, 89);">See all Templates</a>
+
+            </ul>
+        </div>
+        <div class="resources">
+            <div class="resources-cols">
+                <h4>Learn</h4>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Help Center</a></li>
+                </ul>
+            </div>
+            <div class="resources-cols">
+                <h4>Tools</h4>
+                <ul>
+                    <li><a href="#">Contract Maker</a></li>
+                    <li><a href="#">Self-Employed Taxes hub</a></li>
+                    <li><a href="#">Freelance Rates Explore</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class="nav-accordion">
+                <div class="nav-contentBx">
+                    <div class="nav-lable">Product</div>
+                    <div class="nav-content">
+                        <ul>
+                            <li><a href="#">CRM</a></li>
+                            <li><a href="#">Scheduling</a></li>
+                            <li><a href="#">Proposals</a></li>
+                            <li><a href="#">Contracts</a></li>
+                            <li><a href="#">Forms</a></li>
+                            <li><a href="#">Time-tracking</a></li>
+                            <li><a href="#">Tasks</a></li>
+                            <li><a href="#">File sharing</a></li>
+                            <li><a href="#">Client portal</a></li>
+                            <li><a href="#">Collaboration</a></li>
+                            <li><a href="#">Invoicing </a></li>
+                            <li><a href="#">Payments</a></li>
+                            <li><a href="#">Accounting</a></li>
+                            <li><a href="#">Taxes</a></li>
+                            <li><a href="#">banking</a></li>
+                        </ul>
+                    </div>
+                    <hr>
+                </div>
+              
+                <div class="nav-contentBx">
+                    <div class="nav-lable">Industries</div>
+                    <div class="nav-content">
+                        <ul>
+                            <li><a href="#">Consulting</a></li>
+                            <li><a href="#">Marketing</a></li>
+                            <li><a href="#">Recruiting</a></li>
+                            <li><a href="#">Virtual Assisstant</a></li>
+                            <li><a href="#">More..</a></li>
+                            <li><a href="#">Design</a></li>
+                            <li><a href="#">Photography</a></li>
+                            <li><a href="#">Software Development</a></li>
+                            <li><a href="#">Writing</a></li>
+                            <li><a href="#">More...</a></li>
+                            <li><a href="#">Coaching</a></li>
+                            <li><a href="#">Architecture</a></li>
+                            <li><a href="#">Accounting</a></li>
+                            <li><a href="#">Legal</a></li>
+                            <li><a href="#">More..</a></li>
+                            <li><a href="#">Event planning</a></li>
+                            <li><a href="#">Interior design</a></li>
+                            <li><a href="#">Real-Estate</a></li>
+                            <li><a href="#">More...</a></li>
+                        </ul>
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="nav-contentBx">
+                    <div class="nav-lable">Templates</div>
+                    <div class="nav-content">
+                        <ul>
+                            <li><a href="#">Contract Templates</a></li>
+                            <li><a href="#">Proposals Templates</a></li>
+                            <li><a href="#">Invoive Templates</a></li>
+                            <li><a href="#">Quote Templates</a></li>
+                            <li><a href="#">Scope of Work Templates</a></li>
+                            <a href="#" style="color: rgb(89, 211, 89);">See all Templates</a>
+            
+                        </ul>
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="nav-contentBx">
+                    Pricing
+                    <hr>
+                </div>
+                
+                <div class="nav-contentBx">
+                    <div class="nav-lable">Resources</div>
+                    <div class="nav-content">
+                        <ul>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Contract Maker</a></li>
+                            <li><a href="#">Self-Employed Taxes hub</a></li>
+                            <li><a href="#">Freelance Rates Explore</a></li>
+
+                        </ul>
+                    </div>
+                    <hr>
+                </div> 
+                
+                <div class="nav-contentBx">
+                    Reviews
+                </div>
+        
+            </div>
+            <div class="navbar-login">
+
+                <div style="width: 80%;border: 1px solid black;border-radius: 50px;">
+                    <p style="margin: 2%;text-align: center;">login</p>
+                </div>
+                <div style="width: 80%;border: 1px solid black;border-radius: 50px;margin-top: 2%;background-color: rgb(89, 211, 89) ;color: white;">
+                    <p style="margin: 2%;text-align: center;">start free</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contents">
+            
+                <a href="#" class="sub-header-links">Small businesses</a>
+                <a href="#" class="sub-header-links">Agencies</a>
+                <a href="#" class="sub-header-links">Freelancers</a>
+            
+        </div>
+        <div class="contents" style="background-color: aqua;">
+            <div style="padding: 1% ;"> 
+                <p style="font-size: 50px;font-weight: bold;text-align: center;margin: 50px;">
+                    Pick the best plan for your business</p>
+            </div> 
+            
+            <div style="text-align: center;margin: 1% 0;">
+                <button style="border-radius: 50px;padding: 10px;background-color: green;" id="montly">monthly</button><span><button style="border-radius: 50px;padding: 10px;" id="yearly">yearly</button><span>2 months free</span>
+            </div>
+            <div class="monthly-pricing" style="background-color: aquamarine;">
+                <div class="pricing-cols">
+                    <h3>Starter</h3>
+                    $24 /month
+                    <button class="start">Start for free</button>
+                    <p>ideal for freelancers and Contractors 
+                        just starting out.
+                    </p>
+                    <hr>
+                    <ul>
+                        <li>✅All Templates</li>
+                        <li>✅All Templates</li>
+                        <li>✅Unlimeted Clients and Projects</li>
+                        <li>✅Invoicing & Payments</li>
+                        <li>✅Proposals & Contracts</li>
+                        <li>✅Scheduling</li>
+                        <li>✅Tasks & Time tracking</li>
+                        <li>✅Client CRM</li>
+                        <li>✅Forms & Questionnaires</li>
+                        <li>✅Expense Tracking</li>
+                        <li>✅Up to 5 Project Collaboration</li>
+                    </ul>
+                    <button class="start">Start for free</button>
+                </div>
+                
+                <div class="pricing-cols" style="border: 3px dashed orangered;">
+                    <h3>Professional</h3>
+                    $39 /month
+                    <button class="start">Start for free</button>
+                    <p>Everything a growing independent business needs to thrive</p>
+                    <hr>
+                    <ul>
+                      
+                        <li>✅Everything in starter, plus:</li>
+                        <li>✅Costum Branding</li>
+                        <li>✅Workflow Automations</li>
+                        <li>✅Unlimited Scheduling Events</li>
+                        <li>✅Client Portal</li>
+                        <li>✅QuickBooks integration</li>
+                        <li>✅Calendly integration</li>
+                        <li>✅Zapier integration</li>
+                        <li>✅Up o 15 Projects Collaboration</li>
+                        
+                    </ul>
+                    <button class="start">Start for free</button>
+                </div>
+                <div class="pricing-cols">
+                    <h4>Business</h4>
+                    $79 /month
+                    <button class="start"">Start for free</button>
+                    <p>The perfect package for small businesses and agencies</p>
+                    <hr>
+
+                    <ul>
+                        <li>✅Everything in professional, plus:</li>
+                        <li>✅Subcontractor management</li>
+                        <li>✅Hiring Agreement Templates</li>
+                        <li>✅Subcontractor Onboarding(1099 Contractors)</li>
+                        <li>✅Talent Pool</li>
+                        <li>✅3 team seats(additional seats $9/month)</li>
+                        <li>✅Accounting Access</li>
+                        <li>✅Connect Multiple Bank Accounts</li>
+                        <li>✅Unlimited Subcontractors</li>
+                        <li>✅Unlimited Project Collaborators</li>
+                        <li>✅</li>
+                    </ul>
+                    <button class="start">Start for free</button>
+                
+                </div>
+
+            </div>
+            <div class="yearly-pricing" style="background-color: aquamarine;">
+                <div class="pricing-cols">
+                    <h3>Starter</h3>
+                    $17 /month
+                    <button class="start">Start for free</button>
+                    <p>ideal for freelancers and Contractors 
+                        just starting out.
+                    </p>
+                    <hr>
+                    <ul>
+                        <li>✅All Templates</li>
+                        <li>✅All Templates</li>
+                        <li>✅Unlimeted Clients and Projects</li>
+                        <li>✅Invoicing & Payments</li>
+                        <li>✅Proposals & Contracts</li>
+                        <li>✅Scheduling</li>
+                        <li>✅Tasks & Time tracking</li>
+                        <li>✅Client CRM</li>
+                        <li>✅Forms & Questionnaires</li>
+                        <li>✅Expense Tracking</li>
+                        <li>✅Up to 5 Project Collaboration</li>
+                    </ul>
+                    <button class="start">Start for free</button>
+                </div>
+                
+                <div class="pricing-cols" style="border: 3px dashed orangered;">
+                    <h3>Professional</h3>
+                    $32 /month
+                    <button class="start">Start for free</button>
+                    <p>Everything a growing independent business needs to thrive</p>
+                    <hr>
+                    <ul>
+                      
+                        <li>✅Everything in starter, plus:</li>
+                        <li>✅Costum Branding</li>
+                        <li>✅Workflow Automations</li>
+                        <li>✅Unlimited Scheduling Events</li>
+                        <li>✅Client Portal</li>
+                        <li>✅QuickBooks integration</li>
+                        <li>✅Calendly integration</li>
+                        <li>✅Zapier integration</li>
+                        <li>✅Up o 15 Projects Collaboration</li>
+                        
+                    </ul>
+                    <button class="start">Start for free</button>
+                </div>
+                <div class="pricing-cols">
+                    <h4>Business</h4>
+                    $52 /month
+                    <button class="start">Start for free</button>
+                    <p>The perfect package for small businesses and agencies</p>
+                    <hr>
+
+                    <ul>
+                        <li>✅Everything in professional, plus:</li>
+                        <li>✅Subcontractor management</li>
+                        <li>✅Hiring Agreement Templates</li>
+                        <li>✅Subcontractor Onboarding(1099 Contractors)</li>
+                        <li>✅Talent Pool</li>
+                        <li>✅3 team seats(additional seats $9/month)</li>
+                        <li>✅Accounting Access</li>
+                        <li>✅Connect Multiple Bank Accounts</li>
+                        <li>✅Unlimited Subcontractors</li>
+                        <li>✅Unlimited Project Collaborators</li>
+                        <li>✅</li>
+                    </ul>
+                    <button class="start">Start for free</button>
+                
+                </div>
+                
+            </div>
+        </div>
+        <div class="contents">
+            <p style="background-color: aqua;font-size: 50px;font-weight: 100;text-align: center;">
+                Take it to the next level with add-ons</p>
+            <div class="add-ons">
+                <div class="add-ons-cols">
+                    <div>
+                        <p style="font-size: 30px;">Collaborators</p>
+                    <p>Invite other users to specific projects for
+                         limited access and functionality</p>
+                    </div>
+                    <div style="margin: 100px 0 10px 0;"><p style="font-size: 50px;">Free</p></div>     
+                </div>
+                <div class="add-ons-cols">
+                    <div>
+                        <p style="font-size: 30px;">Partners</p>
+                    <p>Invite other users for full Account
+                        access and company management
+                    </p>
+                    </div>
+                    <div style="margin: 100px 0 10px 0;"><p style="font-size: 50px;">$9</p><span>/month</span></div>
+                    
+                </div>
+                <div class="add-ons-cols">
+                    <div>
+                        <p style="font-size: 30px;">Tax Assisstant</p>
+                    <p>Track expenses,identify write-offs,and estimate quarrterly 
+                        taxes easily.
+                    </p>
+                    </div>
+                    <div style="margin: 100px 0 10px 0;"><p style="font-size: 50px;">$10</p><span>/month</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="contents">
+            <div class="FAQ">
+                
+                <div>
+                    <div class="FAQS-accordion">
+                        <p style="font-size: 45px;margin: 10% 0;">Frequently asked questions</p>
+                        <div class="FAQS-contentBx">
+                            <div class="FAQs-label">How does the free trial work?</div>
+                            <div class="FAQS-content">
+                                <p>When you start your trial with Bonsai you'll receive full,
+                                     unlimited access to the plan you chose.
+                                      You will need to enter your credit card information 
+                                      to begin your trial, but don't worry - we 
+                                      won't charge you anything until the trial ends. 
+                                      You can cancel at any time during the trial period
+                                       via your Subscriptions settings.
+
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+
+                        <div class="FAQS-contentBx">
+                            <div class="FAQs-label">Can I change my plan anytime?</div>
+                            <div class="FAQS-content">
+                                <p>Yes, you can upgrade, downgrade or cancel
+                                     your plan at any time via your Subscription settings.
+
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+
+                        <div class="FAQS-contentBx">
+                            <div class="FAQs-label">Is my Bonsai subscription tax deductible?</div>
+                            <div class="FAQS-content">
+                                <p>Yes, the IRS allows for tax deduction for software 
+                                    you use to run your business. Bonsai's expense 
+                                    tracking even automatically categorizes your 
+                                    subscription as a deductible software expense.
+
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+
+                        <div class="FAQS-contentBx">
+                            <div class="FAQs-label">What is your refund policy?</div>
+                            <div class="FAQS-content">
+                                <p>We guarantee your money back within the first 14 
+                                    days of your subscription. Contact us at support@hellobonsai.com 
+                                    to request your refund.</p>
+
+                                <p>Past those 14 days, you can cancel or modify your subscription
+                                    via your Subscription settings to avoid future charges,
+                                     but refunds will not be issued.
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+                <div>
+                    <img src="resources/accordion.png" alt="accordion" id="FAQS-accordion-img">
+                </div>
+            </div>
+        </div>
+        <div class="contents">
+            <p style="background-color: aqua;font-size: 50px;font-weight: 100;text-align: center;">Trusted by 500,000+</p>
+            <p style="background-color: aqua;font-size: 50px;font-weight: 100;text-align: center;">business owners</p>
+            <div id="under-FAQS-accordion-img">
+                <div>
+                    <img src="resources/Top-Performer.svg" alt="top-img">
+                </div>
+                <div>
+                    <img src="resources/best-App.svg" alt="img">
+                </div>
+            </div>
+        </div>
+        <div class="contents"></div>
+        <div class="Group-chart-section">
+            <div>
+                <img src="resources/Group 12657-p-1080.png" alt="Group-img" style="display: inline-block;width: 70%;">
+            </div>
+            <div style="line-height: 1.5;">
+                <div class="sub-group-chart-section">
+                    <div>
+                        <p style="font-size: 30px;">Need help? We'll be right with you</p>
+                      
+                        <p>
+                            Our friendly,speedy,Customer support has all the
+                            answers and is here to help you</p>
+                        </p>
+                        <a href="#" style="color: rgb(89, 211, 89);">Contact us</a>
+                        <hr style="margin: 50px 0;max-width: auto;">
+                    </div>
+                    <div>
+                        <p style="font-size: 30px;">Quick to setup Even easier to use</p>
+                        <p>Even easier to use</p>
+                        <p>
+                            You get 7 days to try for free.And if it's not what you expected,
+                            we guarantee your money back within the fisrt two weeks</p>
+                        </p>
+                        <button class="start">Get started</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="contents">
+            <div class="btm-login-form">
+                <p style="font-size: 30px;">Get started in 30 seconds Free for 7 days</p>
+                <button class="start">Start free trial now</button>
+            </div>
+        </div>
+        
+        <footer>
+           
+            <div class="footer-container">
+                <div class="logo">
+
+                </div>
+                <div class="footer-row">
+                    <div class="footer-cols">
+                        <img src="resources/logo.svg"alt="footer-logo">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">Help center</a></li>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Terms and conditions</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Affiliate Program</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-cols">
+                        <h4>Products</h4>
+                        <ul>
+                            <li><a href="#">Proposals</a></li>
+                            <li><a href="#">Contracts</a></li>
+                            <li><a href="#">Invoicing</a></li>
+                            <li><a href="#">Client CRM</a></li>
+                            <li><a href="#">Scheduling</a></li>
+                            <li><a href="#">Time tracking</a></li>
+                            <li><a href="#">Tasks management</a></li>
+                            <li><a href="#">Forms</a></li>
+                            <li><a href="#">Accounting</a></li>
+                            <li><a href="#">Taxes</a></li>
+                            <li><a href="#">Banking</a></li>
+                            <li><a href="#">Reviews</a></li>
+                            <li><a href="#">Pricing</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-cols">
+                        <h4>Business Types</h4>
+                        <ul>
+                            <li><a href="#">Accounting</a></li>
+                            <li><a href="#">Agencies</a></li>
+                            <li><a href="#">Architecture</a></li>
+                            <li><a href="#">Beauty and wellness</a></li>
+                            <li><a href="#">Coaching</a></li>
+                            <li><a href="#">Consulting</a></li>
+                            <li><a href="#">Design</a></li>
+                            <li><a href="#">Event planning</a></li>
+                            <li><a href="#">freelancers</a></li>
+                            <li><a href="#">Health </a></li>
+                            <li><a href="#">Interior design</a></li>
+                            <li><a href="#">Legal</a></li>
+                            <li><a href="#">Marketing</a></li>
+                            <li><a href="#">Photography</a></li>
+                            <li><a href="#">Real-Estae</a></li>
+                            <li><a href="#">Recruiting</a></li>
+                            <li><a href="#">Small business</a></li>
+                            <li><a href="#">Software development</a></li>
+                            <li><a href="#">Virtual assistant</a></li>
+                            <li><a href="#">Writing</a></li>
+                            <li><a href="#">View all business types</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-cols">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="#">Freelance Resources</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">How to write a contract</a></li>
+                            <li><a href="#">Online signature maker</a></li>
+                            <li><a href="#">Self-Employed taxes hub</a></li>
+                            <li><a href="#">Self-Employed taxe Calculator</a></li>
+                            <li><a href="#">Self-Employed tax Deductions</a></li>
+                            
+                            <div class="accordion">
+                                <div class="contentBx">
+                                    <div class="ftr-label">Comparisons</div>
+                                    <div class="ftr-content">
+                                        <ul>
+                                            <li><a href="#">FreshBooks alternatives</a></li>
+                                            <li><a href="#">QuickBooks alternatives</a></li>
+                                            <li><a href="#">Wave vs. QuickBooks</a></li>
+                                            <li><a href="#">Xero vs. QuickBooks</a></li>
+                                            <li><a href="#">FreshBooks vs. QuickBooks</a></li>
+                                            <li><a href="#">HoneyBooks alternatives</a></li>
+                                            <li><a href="#">Dubsado alternatives</a></li>
+                                            <li><a href="#">Proposify alternatives</a></li>
+                                            <li><a href="#">Xero alternatives</a></li>
+                                        </ul>
+                                    </div>
+                                 </div>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="footer-cols">
+                        <h4>Templates</h4>
+                        <div class="accordion">
+                            <div class="contentBx">
+                                <div class="ftr-label">Contracts</div>
+                                <div class="ftr-content">
+                                    <ul>
+                                        <li><a href="#">Contract templates</a></li>
+                                        <li><a href="#">client contract templates</a></li>
+                                        <li><a href="#">Construction contract templates</a></li>
+                                        <li><a href="#">Free design contracty templates</a></li>
+                                        <li><a href="#">free online contract maker</a></li>
+                                    </ul>
+                                </div>
+                             </div>
+                        </div>
+                        <div class="accordion">
+                            <div class="contentBx">
+                                <div class="ftr-label">Proposals</div>
+                                <div class="ftr-content">
+                                    <ul>
+                                        <li><a href="#">Proposals templates</a></li>
+                                        <li><a href="#">Client Contract Template</a></li>
+                                        <li><a href="#">Construction Contract Template</a></li>
+                                        <li><a href="#">Free Design Contract Template</a></li>
+                                        <li><a href="#">Free Freelance Contract Template</a></li>
+                                    </ul>
+                                </div>
+                             </div>
+                        </div>
+                        <div class="accordion">
+                            <div class="contentBx">
+                                <div class="ftr-label">Invoices</div>
+                                <div class="ftr-content">
+                                    <ul>
+                                        <li><a href="#">Invoice templates</a></li>
+                                        <li><a href="#">Free Basic Invoice Template</a></li>
+                                        <li><a href="#">Free Blank Invoice Template</a></li>
+                                        <li><a href="#">Free Contractor Invoice Template</a></li>
+                                        <li><a href="#">Free Custom Invoice Template</a></li>
+                                    </ul>
+                                </div>
+                             </div>
+                        </div>
+                        <div class="accordion">
+                            <div class="contentBx">
+                                <div class="ftr-label">Forms</div>
+                                <div class="ftr-content">
+                                    <ul>
+                                        <li><a href="#">Form templates</a></li>
+                                        <li><a href="#">Business Client Intake Form</a></li>
+                                        <li><a href="#">Business Intake Form</a></li>
+                                        <li><a href="#">Client Contact Form Template</a></li>
+                                        <li><a href="#">Client Enrollment Form</a></li>
+                                    </ul>
+                                </div>
+                             </div>
+                        </div>
+                        <div class="accordion">
+                            <div class="contentBx">
+                                <div class="ftr-label">Quotes</div>
+                                <div class="ftr-content">
+                                    <ul>
+                                        <li><a href="#">Quote templates</a></li>
+                                        <li><a href="#">Blank Quote Template</a></li>
+                                        <li><a href="#">Creative Quotation Template</a></li>
+                                        <li><a href="#">Editable Quotation Template</a></li>
+                                        <li><a href="#">Formal Quote Template</a></li>
+                                    </ul>
+                                </div>
+                             </div>
+                        </div>
+                        <div class="accordion">
+                            <div class="contentBx">
+                                <div class="ftr-label">Scopes of work</div>
+                                <div class="ftr-content">
+                                    <ul>
+                                        <li><a href="#">Scopes of work templates</a></li>
+                                        <li><a href="#">Contractor Statement of Work template</a></li>
+                                        <li><a href="#">Free Consultant Statement of Work Template</a></li>
+                                        <li><a href="#">Free Digital Marketing Scope of Work Template</a></li>
+                                        <li><a href="#">Free SOW for Software Development</a></li>
+                                        <li><a href="#">Free Statement of Work Contract Template</a></li>
+                                    </ul>
+                                </div>
+                             </div>
+                        </div>
+                        <div class="accordion">
+                            <div class="contentBx">
+                                <div class="ftr-label">Agreements</div>
+                                <div class="ftr-content">
+                                    <ul>
+                                        <li><a href="#">Agreements templates</a></li>
+                                        <li><a href="#">Sample Lawyer Engagement Letter</a></li>
+                                        <li><a href="#">Professional Services Retainer Agreement</a></li>
+                                        <li><a href="#">One-Page Consulting Agreement</a></li>
+                                    </ul>
+                                </div>
+                             </div>
+                        </div>
+                        <div class="accordion">
+                            <div class="contentBx">
+                                <div class="ftr-label">Briefs</div>
+                                <div class="ftr-content">
+                                    <ul>
+                                        <li><a href="#">Brief templates</a></li>
+                                        <li><a href="#">Creative Brief (Example)</a></li>
+                                        <li><a href="#">Free Brief Template (Word)</a></li>
+                                        <li><a href="#">Free Client Brief Template</a></li>
+                                        <li><a href="#">Free Consulting Brief</a></li>
+                                        <li><a href="#">Free Creative Brief Sample</a></li>
+                                    </ul>
+                                </div>
+                             </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

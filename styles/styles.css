@@ -1,0 +1,373 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: aqua;
+    position: sticky;
+    top: 0;
+    
+}
+#logo{
+    padding: 15px;
+}
+#menu-outline{
+    display: inline-block;
+    padding: 10px;
+    font-size: 40px;
+    background-color: green;
+    border-radius: 50px;
+
+}
+
+.sub-header-links{
+    text-decoration: none;
+    color: grey;
+    margin:0 15px;
+
+}
+.sub-header-links:hover{
+    color: rgb(39, 36, 36);
+}
+nav{
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+
+}
+
+.navlinks-container{
+
+    margin-right: auto;
+    padding: 1% 0;
+}
+.nav-links-container{
+    display: inline;
+
+    
+}
+.nav-links{
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 25px;
+    color: gray;
+}
+.nav-links:hover{
+    color: rgb(72, 201, 72);
+    
+    
+}
+.navbar-login-form{
+    padding: 15px;
+}
+#Log-in{
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 50px;
+    border-color: white;
+    background-color: white;
+    
+}
+#menu-outline{
+    display: none;
+}
+.start{
+    padding: 5px;
+    border-radius: 50px;
+    background-color: rgb(89, 211, 89);
+    color: white;
+    border-color: rgb(89, 211, 89);
+
+}
+.start:not(#start){
+    display: block;
+}
+.start:hover{
+    background-color: green;
+}
+/*navbar hidden content prior hover*/
+.products{
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 25px;
+    display: none;
+    
+}
+.products-cols{
+    width: 25%;
+}
+
+.industries{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 25px;
+    display: none;
+}
+.industry-cols{
+    width: 25%;
+}
+.template{
+    display: none;
+}
+.resources{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 25px;
+    display: none;
+
+}
+
+.resources-cols{
+    width: 25%;
+}
+.nav-accordion{
+    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s;
+}
+.nav-contentBx{
+    padding: 2%;
+}
+.nav-content{
+    display: none;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+.navbar-login{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: none;
+  
+}
+.monthly-pricing{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+}
+.yearly-pricing{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.pricing-cols{
+    padding: 10px;
+    width: 20%;
+    border: 1px solid white;
+    border-radius: 10px;
+    align-items: center;
+    line-height: 2;
+    margin: 100px 10px;
+    
+}
+button{
+    cursor: pointer;
+}
+
+.add-ons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 0;
+}
+.add-ons-cols{
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 20%;
+    margin: 20px 10px;
+    padding: 10px;
+   
+}
+.FAQ{
+    background-color: aqua;
+    /*padding: 2%;*/
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.FAQS-accordion{
+    max-width: 800px;
+    /*margin: 10px 15px;*/
+    padding: 5% 10%;
+    line-height: 1.5;
+}
+.FAQS-contentBx{
+    background-color: aliceblue;
+}
+.FAQs-label{
+    background-color:gray;
+    padding: 1%;
+}
+.FAQS-content{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+.FAQS-content-alt{
+    max-height: 150px;
+}
+#FAQS-accordion-img{
+    display: inline-block
+    ;width: 500px;
+}
+#under-FAQS-accordion-img{
+    display: flex;
+    justify-content:center;
+    margin: 3% 0
+}
+.Group-chart-section{
+    width: 80%;
+    display: flex;
+    /*flex-wrap: wrap;*/
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.btm-login-form{
+    width: 80%;
+    margin: 5% auto;
+    padding: 3%;
+    display: flex;
+    justify-content:space-around;
+    border:  1px solid black;
+    border-radius: 50px;
+}
+/*footer*/
+.footer-container{
+    background-color: aliceblue;
+}
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-cols{
+    width: 20%;
+}
+ul li{
+    list-style: none; 
+    margin: 5px 0;
+}
+ul li a{
+    text-decoration: none;
+    color: grey; 
+    transition: 0.3s;
+    
+}
+ul li a:hover{
+    color: rgb(72, 201, 72);
+    padding-left: 10px;
+}
+.accordion{
+
+    margin: 5px 0;
+}
+.ftr-label{
+    background-color: gray;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.ftr-lable:hover{
+    padding-left: 2px;
+}
+.ftr-content{
+    margin: 0 10px;
+    background-color: ghostwhite;
+    max-height: 0;
+    overflow: hidden;
+    transition: 1s;
+}
+.ftr-content-alt{
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+@media(max-width:600px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    /*body{
+        background-color: brown;
+        border: 2px solid black;
+        margin: 0;
+        padding: 0;
+    }*/
+    .footer-cols{
+        width: 100%;
+    }
+    .pricing-cols{
+        width: 100%;
+    }
+    .add-ons-cols{
+        width: 100%;
+    }
+    .Group-chart-section{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+    .sub-group-chart-section{
+        max-width: auto;
+    }
+    #under-FAQS-accordion-img{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    #FAQS-accordion-img{
+        display: none;
+    }
+    .navlinks-container{
+        display: none;
+    }
+    .navbar-login-form{
+        display: none;
+    }
+    .products{
+        display: none;
+    }
+    .industries{
+        display: none;
+    }
+    .template{
+        display: none;
+    }
+    .resources{
+        display: none;
+    }
+    #menu-outline{
+        display: block;
+    }
+    
+    .nav-accordion{
+        display: block;
+    }
+    .nav-accordion-alt{
+        max-height: 400px;
+        overflow: scroll;
+    }
+    .nav-content{
+        display: block;
+    }
+    .nav-content-alt{
+        height: 250px;
+        overflow: scroll;
+    }
+    .navbar-login{
+        display: flex
+    }
+   
+}

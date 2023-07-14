@@ -1,0 +1,105 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+#logo-img{
+    margin: 3% 0 0 0;
+}
+#main-container{
+    /*display: flex;
+    justify-content: center;*/
+    margin: 5% 0;
+    /*border: 1px solid black;*/
+}
+.container{
+    padding: 5% 0; 
+    text-align: center;
+    border: 2px solid grey;
+    width: 50%;
+    margin: auto;
+    line-height: 2;
+    border-radius: 5px;
+    
+}
+#email{
+    width: 80%;
+    padding: 2%;
+    border-radius: 5px;
+}
+#fullname{
+    width: 80%;
+    padding: 2%;
+    border-radius: 5px;
+}
+#password{
+    width: 80%;
+    padding: 2%;
+    border-radius: 5px;
+}
+.create{
+    width: 80%;
+    padding: 2%;
+    color: white;
+    background-color: rgb(32, 180, 32);
+    border-radius: 5px;
+    border: 2px solid rgb(32, 180, 32);
+}
+.log-in{
+    width: 80%;
+    padding: 2%;
+    margin: 3%;
+    border: 2px solid rgb(32, 180, 32);
+    border-radius: 5px;
+}
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .divider::before,
+  .divider::after {
+    content: "";
+    border-top: 1px solid gray;
+    flex: 1;
+  }
+
+.ftr-links{
+    text-decoration: none;
+    font-weight: bold;
+    color: gray;
+}
+.ftr-links:hover{
+    color: green;
+
+}
+
+ul li{
+    display: inline-block;
+    list-style-type: circle;
+}
+ul{
+
+    margin: 5% 10%;
+    padding: 0 15%;
+    display: flex;
+    justify-content: space-around;
+}
+#ftr-text-container{
+    margin: 5% 10%;
+}
+
+@media(max-width:600px){
+    ul li{
+        display: block;
+        margin: 3px 0;
+
+    }
+    ul{
+        flex-direction: column;
+        padding: 0 2%;
+    }
+    .container{
+        width: 80%;
+    }
+}
