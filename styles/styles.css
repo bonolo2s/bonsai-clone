@@ -145,6 +145,7 @@ nav{
     flex-wrap: wrap;
     justify-content: center;
     display: none;
+    text-align: center;
   
 }
 .monthly-pricing{
@@ -368,6 +369,7 @@ ul li a:hover{
     }
     .navbar-login{
         display: flex
+        
     }
    
 }
