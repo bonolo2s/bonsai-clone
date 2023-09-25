@@ -139,7 +139,6 @@ const ftrLable = document.querySelectorAll('.ftr-label')
 for(let y=0; y<ftrLable.length;y++){
     
     ftrLable[y].addEventListener('click',function(){
-        console.log("wa poppy")
         const ftrContent = document.querySelectorAll('.ftr-content')
         ftrContent[y].classList.toggle('ftr-content-alt')
     })
